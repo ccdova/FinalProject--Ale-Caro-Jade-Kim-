@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+body {
+  background-color:#184D47;
+}
+
+.title {
+  font-family: 'Unica One', cursive;
+  font-size: 60px;
+
+}
+
+ul {
+  font-family: 'Permanent Marker', cursive;
+  font-size:20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 100;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+a:link, a:visited {
+  background-color: #81b29a;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+a:hover, a:active {
+  background-color: #F7A964;
+}
+
+h2 {
+  font-family: 'Unica One', cursive;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-size:30px;
+  display:flex;
+  justify-content: center;
+}
+
+iframe{
+  object-fit:fill;
+  width:1000px;
+  height:550px;
+
+}
+
+
