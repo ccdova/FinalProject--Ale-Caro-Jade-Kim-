@@ -8,13 +8,13 @@ body {
 }
 
 .leaf {
+  margin-left:20px;
   width: 100px;
   height: 100px;
   display: inline;
-
 }
 
-.title {
+h1 {
   font-family: 'Unica One', cursive;
   font-size: 60px;
   display: inline;
@@ -60,6 +60,10 @@ h2 {
   font-size:30px;
 }
 
+.about-quote {
+  margin-right: 150px;
+  margin-left: 180px;
+}
 
 p {
   /* font-family: 'Roboto Slab', serif; */
@@ -70,17 +74,13 @@ p {
   justify-content: center;
 }
 
-/* .carousel {
-  width:680px;
-  height:500px;
-  
-} */
-/* iframe{
-  object-fit:fill;
-  width:1000px;
+iframe{
+ margin-left:245px;
+ margin-right:170;
+  width:900px;
   height:550px;
 
-} */
+}
 
 
 * {box-sizing: border-box;}
