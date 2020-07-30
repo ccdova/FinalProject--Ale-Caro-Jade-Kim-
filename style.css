@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 
 body {
-  background-color:#184D47;
+  background-color:#28524F;
+}
+
+.leaf {
+  width: 100px;
+  height: 100px;
+  display: inline;
+
 }
 
 .title {
   font-family: 'Unica One', cursive;
   font-size: 60px;
-
+  display: inline;
+  color:white;
 }
 
 ul {
@@ -20,6 +30,7 @@ ul {
   display: flex;
   flex-wrap:wrap;
   justify-content:center;
+  
 }
 
 a:link, a:visited {
@@ -31,12 +42,13 @@ a:link, a:visited {
   display: inline-block;
   
 }
-
-a:hover, a:active {
-  background-color: #F7A964;
+a:hover, a:active{
+  background-color: #55a630;
 }
 
+
 h2 {
+  /* font-family: 'Roboto Slab', serif; */
   font-family: 'Unica One', cursive;
   font-size: 40px;
   color: white;
@@ -44,19 +56,101 @@ h2 {
   justify-content: center;
 }
 
+.statement {
+  font-size:30px;
+}
+
+
 p {
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Roboto Slab', serif; */
+  font-family: 'Oswald', sans-serif;
   color: white;
   font-size:30px;
   display:flex;
   justify-content: center;
 }
 
-iframe{
+/* .carousel {
+  width:680px;
+  height:500px;
+  
+} */
+/* iframe{
   object-fit:fill;
   width:1000px;
   height:550px;
 
+} */
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+ 
