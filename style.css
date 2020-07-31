@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); 
 
 
 body {
@@ -75,14 +75,18 @@ p {
 }
 
 iframe{
- margin-left:245px;
- margin-right:170;
-  width:900px;
-  height:550px;
+ margin-left:520px;
+ margin-right:200px;
+  width:865px;
+  height:487px;
 
 }
 
-
+.sealpic{
+  display: block;
+  margin: auto;
+}
+ 
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -97,8 +101,9 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color:whitesmoke;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -153,4 +158,121 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
- 
+.nav-bar-options > li.active > a, 
+.nav-bar-options > li.active > a:focus, 
+.nav-bar-options > li.active > a:hover {
+  background-color: #DC562E;
+  color: #fff;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Create two equal columns that floats next to each other */
+/* .column {
+  width: 100%;
+  padding: 10px;
+} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table; 
+  clear: both;
+} */
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+} */
+.elepanda {
+  height:300px;
+  width:auto;
+  object-fit:cover;
+  margin:5px;
+  margin-bottom: 25px;
+  display:inline;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.organizations{
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* table */
+table {
+  color: #fff;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+h1{
+  color: #ebeb7e;
+}
+
+td, th {
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+/* travel section */
+.column{
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* .travel-table{
+  display: flex;
+  justify-content: center;
+} */
+
+.pass-names{
+  text-align: center;
+  font-size: 35px;
+}
+
+.age-groups{
+  text-align: center;
+  font-size: 28px;
+}
+
+.pass-details{
+  /* font-size: 25px; */
+  height: auto; 
+  width: 50%; 
+}
+
+.charity{
+  height: auto;
+  width: 50%;
+  object-fit: cover;
+}
+
+.WWF {
+  height: auto;
+  width: 25%; 
+}
+
+.table { 
+  height: auto;
+  width: 30px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
+  padding: 100px; 
+}

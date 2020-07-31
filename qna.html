@@ -3,12 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  width: 300px;
+  padding: 20px;
+  margin:0 auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
      <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
      <link rel="icon" href="https://icon-library.com/images/leaves-icon/leaves-icon-13.jpg">
-    <title>Q & A</title>
+    <title>Community</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
   </head>
@@ -27,18 +53,50 @@
         <ul class="nav-bar-options">
           <li><a href="index.html">Home</a></li>
           <li><a href="about-page.html">About</a></li>
-          <li><a href="qna.html">Q & A</a></li>
+          <li class="active" ><a
+          href="qna.html">Community</a></li>
           <li><a href="travel.html">Travel/Financial Aid</a></li>
           <li><a href="habitat.html">Animal Habitats</a></li>
           <li><a href="donate.html">Donations</a></li>
           <li><a href="volunteer.html">Volunteer</a></li>
           <li><a href="organize.html">Organizations</a></li>
         </ul>
-      </nav> 
+      </nav>
     <br>
-    <container class="content">
-      <h2 class="qna">Q & A</h2>
-      <p class="qna-quote">questions and answers</p>  
+    <br>
+    
+      <h2>Our Community</h2>
+<!-- <p>Resize the browser window to see the responsive effect (the columns will stack on top of each other instead of floating next to each other, when the screen is less than 600px wide).</p> -->
+<br>
+<br>
+<div class="row">
+  <div class="column" style="background-color:#81b29a;">
+    <h2>Q & A</h2>
+    <p>These are questions some of are users have asked us:</p>
+     <!-- Toggle event -->
+     <button class="tog">How do I get Financial Aid for my travel pass?</button>
+      <p>Get financial aid by checking out our travel page.</p>
+
+      
+    <br>
+    <p> 
+  </div>
+  <div class="column" style="background-color:#ebeb7e;">
+    <h2>Blog</h2>
+    <p>Here are some pictures are users have shared with us after having a great experience using our site</p>
+    <img class="elepanda" src="https://www.yedraw.com/forest-animals/draw-elephant.jpg">
+    <img class="elepanda" src="https://images.pexels.com/photos/3608263/pexels-photo-3608263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+    <img class="elepanda" src="https://images.pexels.com/photos/3708421/pexels-photo-3708421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+    <img class="elepanda"src="https://images-na.ssl-images-amazon.com/images/I/61O9XGLsGrL._SX500_.jpg">
+    <img class="elepanda" src="https://images.pexels.com/photos/208965/pexels-photo-208965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+  </div>
+</div>
+    <br>
+    <br>
+
   </section>    
+
+
+
   </body>
 </html>
