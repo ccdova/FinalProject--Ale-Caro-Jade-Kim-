@@ -50,6 +50,12 @@ a:hover, a:active{
   background-color: #55a630;
 }
 
+.about-img {
+  display: flex;
+  justify-content:center;
+  margin:0 auto;
+}
+
 
 h2 {
   /* font-family: 'Roboto Slab', serif; */
@@ -60,8 +66,14 @@ h2 {
   justify-content: center;
 }
 
+.mission-header{
+  margin-bottom: 25px;
+}
 .statement {
   font-size:30px;
+}
+.photo-header{
+  margin-bottom: 25px;
 }
 
 .about-quote {
@@ -378,12 +390,13 @@ th {
   height: 75px;
   width: 175px;
   font-size: 20px;
-  margin-left: 592px;
-  background-color: #2a9d8f;
+  margin-left: 865px;
+  background-color: #81b29a;
   color: white;
   border: 1px solid #28524F;
   border-radius: 3px;
 
+  
 }
 
 .twopics {
@@ -393,7 +406,7 @@ th {
 }
 
 button:hover {
-  background-color: #41c7b7;
+  background-color: #55a630;
   cursor: pointer;
 }
 

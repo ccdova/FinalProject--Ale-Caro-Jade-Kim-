@@ -25,6 +25,15 @@ function showSlides() {
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
+function aidFunction() {
+  document.getElementById("aid-drop").classList.toggle("show");
+}
+function animalFunction() {
+  document.getElementById("animal-drop").classList.toggle("show");
+}
+function passFunction() {
+  document.getElementById("pass-drop").classList.toggle("show");
+}
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -104,3 +113,4 @@ window.onclick = function(event) {
 // function myFunction() {
 //   document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
 // }
+
