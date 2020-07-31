@@ -13,6 +13,10 @@ body {
   height: 100px;
   display: inline;
 }
+.title {
+position: absolute; 
+margin-top: 30px; 
+}
 
 h1 {
   font-family: 'Unica One', cursive;
@@ -200,6 +204,42 @@ img {vertical-align: middle;}
   justify-content: space-evenly;
 }
 
+.panda1{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  height:300px;
+  width:auto;
+  object-fit:cover;
+  margin-left:105px;
+  margin-bottom: 25px;
+}
+
+.panda2 {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:300px;
+  width:auto;
+  object-fit:cover;
+  margin-left:100px;
+  margin-bottom: 25px;
+}
+
+.panda3 {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:300px;
+  width:auto;
+  object-fit:cover;
+  margin-left:105px;
+  margin-bottom: 25px;
+}
+
+
+
+
 
 .organizations{
   object-fit: cover;
@@ -242,16 +282,6 @@ td, th {
   justify-content: center;
 } */
 
-.pass-names{
-  text-align: center;
-  font-size: 35px;
-}
-
-.age-groups{
-  text-align: center;
-  font-size: 28px;
-}
-
 .pass-details{
   /* font-size: 25px; */
   height: auto; 
@@ -260,19 +290,151 @@ td, th {
 
 .charity{
   height: auto;
-  width: 50%;
+  width: 100%;
   object-fit: cover;
 }
 
 .WWF {
   height: auto;
-  width: 25%; 
+  width: 75%; 
+  padding: 10px;
+  margin-left: 40px; 
 }
 
-.table { 
+.WCS{
+  height: auto; 
+  width: 75%; 
+  object-fit: cover; 
+  padding: 10px;
+  margin-left: 40px; 
+}
+
+.table{ 
   height: auto;
-  width: 30px; 
-  margin-left: 10px; 
-  margin-right: 10px; 
+  width: 70px; 
+  margin:0 auto;
+  /* margin-left: 300px; 
+  margin-right: 300px;  */
+  padding: 100px; 
+  
+}
+
+.junior {
+  background-color: #e9c46a;
+}
+
+.adult {
+  background-color: #f4a261;
+}
+
+.senior {
+  background-color: #e76f51;
+}
+
+th {
+  text-align:center; 
+  font-size: 35px;
+}
+
+.age{
+  text-align: center;
+  font-size: 28px;
+}
+
+.info{
+  height: auto;
+  width: 50%; 
+}
+
+.voltable {
+  height: auto;
+  width: 70px;
+  margin:0 auto; 
+  /* margin-left: 300px; 
+  margin-right: 300px;  */
   padding: 100px; 
 }
+
+.travel-table {
+  margin:0 auto;
+}
+
+.nav-bar {
+  margin-right: 30px; 
+}
+
+.travel{
+  margin-bottom: 40px;
+}
+
+.financial-aid{
+  margin-bottom: 30px;
+}
+
+.form-p{
+  margin-bottom: 30px;
+}
+.formBtn{
+  height: 75px;
+  width: 175px;
+  font-size: 20px;
+  margin-left: 592px;
+  background-color: #2a9d8f;
+  color: white;
+  border: 1px solid #28524F;
+  border-radius: 3px;
+
+}
+
+.twopics {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+}
+
+button:hover {
+  background-color: #41c7b7;
+  cursor: pointer;
+}
+
+.dropbtn {
+  background-color: #55a630;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #81b29a ;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  backround-color: #
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f4a261;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  background-color:ebeb7e;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #f4a261;}
+
+.show {display: block;}
+

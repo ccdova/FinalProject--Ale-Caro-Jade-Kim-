@@ -22,29 +22,85 @@ function showSlides() {
 
 
 
-.append()syntax
-var container = $('.container');
-container.append(`<p>Hello</p>`)
 
-function toggle() {
-  button.toggleClass('tog');
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
 }
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+//dropdown 2
+// function myFunction() {
+//   document.getElementById("myDropdown2").classList.toggle("show");
+// }
+
+// // Close the dropdown if the user clicks outside of it
+// window.onclick = function(event) {
+//   if (!event.target.matches('.dropbtn2')) {
+//     var dropdowns2 = document.getElementsByClassName("dropdown-content2");
+//     var i;
+//     for (i = 0; i < dropdowns2.length; i++) {
+//       var openDropdown = dropdowns2[i];
+//       if (openDropdown.classList.contains('show')) {
+//         openDropdown.classList.remove('show');
+//       }
+//     }
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+// .append()syntax
+// var container = $('.container');
+// container.append(`<p>Hello</p>`)
+
+// function toggle() {
+//   button.toggleClass('tog');
+// }
+
+
+
 // var toggle = function () {
 //   $("#tog").click(function() {
 //     $("#parToggle").toggle()
-
 //   })
 // }
+
+
+
 // var fortuneBtn = $('.fortune-btn');
 // var fortuneTeller = $('.fortune');
 
 // fortuneBtn.on('click', giveFortune);
 // function giveFortune(event) {
-//   // event.preventDefault();
-//  console.log("hi");
-//  fortuneTeller.text(`This is your fortune: `);
- 
+//   event.preventDefault();
+//  fortuneTeller.text(`Get financial aid by checking out our travel page.`)
 // }
+
+
+
 // function myFunction() {
 //   document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
 // }
